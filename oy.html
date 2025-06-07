@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perpustakaan Digital</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>📚 Perpustakaan Digital</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="search">
+  <input type="text" id="searchInput" placeholder="🔍 Cari judul buku..." autocomplete="off" />
+  <div id="suggestions" class="suggestions-box"></div>
+</section>
+
+
+    <h2 class="section-title">📖 Daftar Buku</h2>
+    <section class="book-list" id="bookList"></section>
+
+    <h2 class="section-title">📌 Buku yang Dipilih</h2>
+    <section class="selection-list">
+      <ul id="selectedBooksList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Perpustakaan Digital</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
